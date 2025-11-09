@@ -1,0 +1,200 @@
+/*
+
+Xilinx Vitis v2020.2.0 (64-bit) [Major: 2020, Minor: 2]
+SW Build 3064172 on 2020-11-18-06:24:19
+
+Process ID (PID): 3766028
+License: Customer
+
+Current time: 	Sun Nov 09 14:36:44 CET 2025
+Time zone: 	Central European Standard Time (Europe/Copenhagen)
+
+OS: Ubuntu
+OS Version: 5.15.0-139-generic
+OS Architecture: amd64
+Available processors (cores): 16
+
+Display: :1
+Screen size: 1920x1080
+Available screens: 1
+Available disk space: 19 GB
+
+Java version: 	11.0.2 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2
+Java executable location: 	/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/bin/java
+Java initial memory (-Xms): 	64 MB
+Java maximum memory (-Xmx):	 1,024 MB
+
+Java library paths: /tools/Xilinx/Vitis/2020.2/tps/lnx64/javafx-sdk-11.0.2/lib:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib/:/tools/Xilinx/Vitis/2020.2/tps/lnx64/jre11.0.2/lib//server:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o/Ubuntu:/tools/Xilinx/Vitis/2020.2/lib/lnx64.o:/tools/Xilinx/Vitis/2020.2/tps/lnx64/python-3.8.3/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/tools/Xilinx/Vitis/2020.2/bin/../lnx64/tools/dot/lib:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+
+Java class paths: /tools/Xilinx/Vitis/2020.2/eclipse/lnx64.o//plugins/org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar
+LD_LIBRARY_PATH: /tools/Xilinx/Vitis
+
+User name: 	thomas
+User home directory: /home/thomas
+User working directory: /home/thomas/MPSoC4Drones
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.2
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.2/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.2/bin
+
+Vitis preferences directory: /home/thomas/.Xilinx/Vitis/2020.2/
+Vitis workspace directory: /home/thomas/workspace
+Vitis workspace log file location: /home/thomas/workspace/.metadata/.log
+Engine tmp dir: 	
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_HLS: /tools/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.2
+XILINX_SDK: /tools/Xilinx/Vitis/2020.2
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.2
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.2
+_RDI_DONT_SET_XILINX_AS_PATH: True
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+activateView("mem_cop_test_system", "mem_cop_test_system/mem_cop_test_system.sprj", "SystemProjectSettingsEditor", "CTabItem.MEM_COP_TEST_SYSTEM");
+activateView("BRAM_APP", "BRAM_APP/BRAM_APP.prj", "Settingseditor", "CTabItem.BRAM_APP");
+selectTreeTable("mem_cop_test_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectTreeTable("helloworld.c", "mem_cop_test_system > mem_cop_test > src", EventType.DOUBLE_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Explorer", "ProjectExplorer", "CTabItem.EXPLORER");
+selectButton("Cancel", "Progress Information", "ProgressMonitorJobsDialog", "Button.CANCEL");
+selectButton("OK", "Error Launching Program", "ErrorDialog", "Button.OK");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Connect to serial port", "Vitis Serial Terminal", "SDKTerminalView", "ToolItem.CONNECT_TO_SERIAL");
+selectButton("OK", "Connect to serial port", "SerialConnectionDialog", "Button.OK");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Minimize", "Vitis Serial Terminal", "SDKTerminalView", "ToolItem.MINIMIZE");
+selectMenuItem("Window", "mem_cop_test", "WorkbenchWindow", "MenuItem.WINDOW");
+selectMenuItem("Problems", "mem_cop_test", "WorkbenchWindow", "MenuItem.PROBLEMS");
+activateView("Problems", "ProblemsView", "CTabItem.PROBLEMS");
+selectToolBarButton("View Menu", "Problems", "ProblemsView", "ToolItem.VIEW_MENU");
+selectToolBarButton("Restore", "Problems", "ProblemsView", "ToolItem.RESTORE");
+selectMenuItem("Window", "mem_cop_test", "WorkbenchWindow", "MenuItem.WINDOW");
+selectMenuItem("Console", "mem_cop_test", "WorkbenchWindow", "MenuItem.CONSOLE");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Clear Console", "Vitis Serial Terminal", "SDKTerminalView", "ToolItem.CLEAR_CONSOLE");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectTreeTable("mem_cop_test", "mem_cop_test_system", "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Clear Console", "Vitis Serial Terminal", "SDKTerminalView", "ToolItem.CLEAR_CONSOLE");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectTreeTable("u96v2_sbc_mp4d", EventType.POPUP_TRIGGER_CLICK, "Explorer", "ProjectExplorer", "TreeViewer.NavigatorContentServiceContentProvider");
+selectMenuItem("Update Hardware Specification", "Explorer", "ProjectExplorer", "MenuItem.UPDATE_HARDWARE");
+selectButton("OK", "Update Hardware Specification", "ScwSyncHwSpecDialog", "Button.OK");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Clear Console", "Vitis Serial Terminal", "SDKTerminalView", "ToolItem.CLEAR_CONSOLE");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectButton("OK", "Update Hardware Specification", "MessageDialog", "Button.OK");
+selectToolBarButton("Build Configuration for project u96v2_sbc_mp4d", "u96v2_sbc_mp4d", "WorkbenchWindow", "ToolItem.BUILD_CONFIGURATION");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectToolBarButton("Run", "u96v2_sbc_mp4d", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+activateView("helloworld.c", "mem_cop_test/src/helloworld.c", "CEditor", "CTabItem.HELLOWORLD_C");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+selectToolBarButton("Build Debug for project mem_cop_test", "mem_cop_test", "WorkbenchWindow", "ToolItem.BUILD_DEBUG_FOR");
+activateView("Console", "ConsoleView", "CTabItem.CONSOLE");
+selectTreeTable("Debug", "mem_cop_test_system > mem_cop_test", "Console", "ConsoleView", "TreeViewer.NavigatorContentServiceContentProvider");
+selectToolBarButton("Run", "mem_cop_test", "WorkbenchWindow", "ToolItem.RUN");
+activateView("Vitis Serial Terminal", "SDKTerminalView", "CTabItem.VITIS_SERIAL_TERMINAL");
+// Exiting Xilinx Vitis with a status code '0' at 11/9/25, 3:59:42 PM CET
+// Elapsed time: 01:22:58
+
